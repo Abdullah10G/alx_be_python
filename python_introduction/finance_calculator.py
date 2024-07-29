@@ -1,4 +1,4 @@
-Monthly_Income = int(input("Enter yoyr monthly income:"))
+Monthly_Income = int(input("Enter your monthly income:"))
 Monthly_Expenses = int(input("Enter your total monthly expenses:"))
 
 monthly_savings = Monthly_Income - Monthly_Expenses                 #caclculating monthly savings
