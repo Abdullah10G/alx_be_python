@@ -5,18 +5,18 @@ operation = input("Choose the operation (+, -, *, /):")
 match operation :
     case "+":
         addition = num_1 + num_2
-        print (f"The result is {addition}.")
+        print(f"The result is {addition}.")
     case "-":
         subsratction = num_1 - num_2
-        print (f"The result is {subsratction}.")
+        print(f"The result is {subsratction}.")
     case "*":
         multipy = num_1 * num_2
-        print (f"The result is {multipy}.")
+        print(f"The result is {multipy}.")
     case "/":
         if num_2 == 0:
-            print ("You cannot divide by zero.")
+            print("You cannot divide by zero.")
         else:    
             divide = num_1 / num_2
-            print (f"The result is is {divide}.")
+            print(f"The result is {divide}.")
     case _:
         print("Operation isn't included , Try again.")
