@@ -17,6 +17,6 @@ match operation :
             print ("You cannot divide by zero.")
         else:    
             divide = num_1 / num_2
-            print (f"The result is is {divide}.")
+            print (f"The result is {divide}.")
     case _:
         print("Operation isn't included , Try again.")
