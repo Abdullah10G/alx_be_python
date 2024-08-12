@@ -10,7 +10,7 @@ match Priority:
             print(f"Reminder: '{Task}' is a high priority task. Consider completing it when you have free time.")
     case "medium":
         if Time_Bound == "yes":
-            print(f"Reminder: '{task}' is a medium priority task that requires immediate attention today!")
+            print(f"Reminder: '{Task}' is a medium priority task that requires immediate attention today!")
         else:
             print(f"Reminder: '{Task}' is a medium priority task. Consider completing it when you have free time.")
     case "low":
